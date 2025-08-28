@@ -1,0 +1,1334 @@
+[
+  {
+    "name": "Ajisen Ramen",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "BBQ Express",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Bee Cheng Hiang",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Bengawan Solo",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Boost Juice Bars",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": true,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Chateraise",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "CHICHA San Chen (????)",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": true,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "CocoCane",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": true,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "CRAVE",
+    "Mains": true,
+    "Takeaway only": true,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Delifrance",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Dian Xiao Er",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "EAT.",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Food Junction",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Four Leaves",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Fun Toast",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Gong Cha",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": true,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Hainanese Curry Rice",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Ho Kee Pau",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "JUEWEI BRAISED SNACKS",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "KFC",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Maki-San",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "McDonald's",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "MENDON",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Miss Tea",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": true,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Mr Bean",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": true,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "munchi PANCAKES",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Nine Fresh",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": true,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "PASTAMANIA",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "PEZZO",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "POLAR Puffs& Cakes",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "PrimaDéli",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Reg Ginger",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "san.wich",
+    "Mains": false,
+    "Takeaway only": true,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Sanook Kitchen",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Shiok Burger",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Snackz i",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "stuff'd",
+    "Mains": true,
+    "Takeaway only": true,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Subway",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Sushiro",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "SWEE HENG 1989 Classic",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "TamJai SamGor Mixian",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Tenderfresh XPRESS",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "The Coffee Bean & Tea Leaf",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": true,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "The Whale Tea",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": true,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Tokyo Shokudo / Milan Shokudo",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Tori Story",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "WOK HEY",
+    "Mains": true,
+    "Takeaway only": true,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Wunderfolks",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Ya Kun Kaya Toast",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": true,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Yakiniku Shokudo",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Lot One",
+    "priceRange": false
+  },
+  {
+    "name": "Andes by Astons",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "ARABISK",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Bee Cheng Hiang",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Bengawan Solo",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Bibimbap! / Dosirak!",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Bober Tea",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": true,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Boost Juice Bars",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": true,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "BURGER KING",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Chinatown Tan's Tutu Coconut Cake",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "CRAVE",
+    "Mains": true,
+    "Takeaway only": true,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Cravy For Crispy Chicken",
+    "Mains": false,
+    "Takeaway only": true,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Fish With You",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Fong Sheng Hao",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Four Leaves",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Gado & Grill",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Gokoku Japanese Bakery",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Greendot",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Hawkers' Street (Food Court)",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Ichiban Sushi",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "KFC",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Koo Kee",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Lao Huo Tang Restaurant",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "LAU WANG CLAYPOT",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "LiHO",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": true,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "McDonald's",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "MICUN Bibimbap",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "MIXUE",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": true,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Mr Bean",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": true,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "NENE CHICKEN",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Now Pizza",
+    "Mains": false,
+    "Takeaway only": true,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Old Chang Kee",
+    "Mains": false,
+    "Takeaway only": true,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Pizza Hut",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "PlayMade",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": true,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "rrooll",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Shan Cheng",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Song Fa Bak Kut Teh",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Subway",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Swee Heng Bakery",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Swensen's",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Tonkotsu Kazan",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Twelve Cupcakes",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Wine Connection",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": true,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "WOK HEY",
+    "Mains": true,
+    "Takeaway only": true,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Xi Men Jie",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Ya Kun Kaya Toast",
+    "Mains": false,
+    "Takeaway only": true,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Yakiniku Like",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Yes Lemon",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "Yu Ding",
+    "Mains": true,
+    "Takeaway only": true,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Bukit Panjang Plaza",
+    "priceRange": false
+  },
+  {
+    "name": "4Fingers Crispy Fried Chicken",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Auntie Anne's",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Ayam Penyet President",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Big Fish Small Fish",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Blackball Dessert",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": true,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Chateraise",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Chatramue & Souperstar",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": true,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Common Grill by COLLIN'S®",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Crystal Jade La Mian Xiao Long Bao",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Dian Xiao Er",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "D’Penyetz & D’Cendol",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Eat 3 Bowls",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Genki Sushi",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Gong Yuan Mala Tang",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Han's Cafe & Cake House",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "HarriAnns Nonya Table",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Ichikokudo Hokkaido Ramen",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Ji De Chi Dessert",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": true,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Kei Kaisendon",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Keitaku Mazesoba",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "King of Prawn Noodles",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Kopi & Tarts",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": true,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Krispy Kreme",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "LLao Llao",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Long John Silver's",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Maki-San",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Mcdonald's",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "MOS Burger",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Munchi Pancakes",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Namu Bulgogi",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "PastaGo",
+    "Mains": true,
+    "Takeaway only": true,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Pontian Wanton Noodles",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "QiJi",
+    "Mains": true,
+    "Takeaway only": true,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Saizeriya",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Sanook Kitchen",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Starbucks Coffee",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": true,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Subway",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Sukiya",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Sushi Express",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Tempura Tendon Tenya",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "The Hainan Story",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "The Soup Spoon Union",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Tiong Bahru Yong Tao Hu",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Tongue Tip Lanzhou Beef Noodles",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Tori-Q",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "ToriGO",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Wingstop",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Wok The FISH! By A-One F&B Group",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "Ya Kun Kaya Toast",
+    "Mains": false,
+    "Takeaway only": false,
+    "Bites": true,
+    "Drinks": true,
+    "location": "Hillion Mall",
+    "priceRange": false
+  },
+  {
+    "name": "??? Nan Yang Dao",
+    "Mains": true,
+    "Takeaway only": false,
+    "Bites": false,
+    "Drinks": false,
+    "location": "Hillion Mall",
+    "priceRange": false
+  }
+]

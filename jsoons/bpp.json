@@ -1,0 +1,434 @@
+[
+  {
+    "name": "Andes by Astons",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "ARABISK",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Bee Cheng Hiang",
+    "Mains": "❌",
+    "Takeaway only": "❌",
+    "Bites": "✅",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Bengawan Solo",
+    "Mains": "❌",
+    "Takeaway only": "❌",
+    "Bites": "✅",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Bibimbap! / Dosirak!",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Bober Tea",
+    "Mains": "❌",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "✅",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Boost Juice Bars",
+    "Mains": "❌",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "✅",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "BURGER KING",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Chinatown Tan's Tutu Coconut Cake",
+    "Mains": "❌",
+    "Takeaway only": "❌",
+    "Bites": "✅",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "CRAVE",
+    "Mains": "✅",
+    "Takeaway only": "✅",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Cravy For Crispy Chicken",
+    "Mains": "❌",
+    "Takeaway only": "✅",
+    "Bites": "✅",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Fish With You",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Fong Sheng Hao",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Four Leaves",
+    "Mains": "❌",
+    "Takeaway only": "❌",
+    "Bites": "✅",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Gado & Grill",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Gokoku Japanese Bakery",
+    "Mains": "❌",
+    "Takeaway only": "❌",
+    "Bites": "✅",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Greendot",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Hawkers' Street (Food Court)",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Ichiban Sushi",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "KFC",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Koo Kee",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Lao Huo Tang Restaurant",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "LAU WANG CLAYPOT",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "LiHO",
+    "Mains": "❌",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "✅",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "McDonald's",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "MICUN Bibimbap",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "MIXUE",
+    "Mains": "❌",
+    "Takeaway only": "❌",
+    "Bites": "✅",
+    "Drinks": "✅",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Mr Bean",
+    "Mains": "❌",
+    "Takeaway only": "❌",
+    "Bites": "✅",
+    "Drinks": "✅",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "NENE CHICKEN",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Now Pizza",
+    "Mains": "❌",
+    "Takeaway only": "✅",
+    "Bites": "✅",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Old Chang Kee",
+    "Mains": "❌",
+    "Takeaway only": "✅",
+    "Bites": "✅",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Pizza Hut",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "PlayMade",
+    "Mains": "❌",
+    "Takeaway only": "❌",
+    "Bites": "✅",
+    "Drinks": "✅",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "rrooll",
+    "Mains": "❌",
+    "Takeaway only": "❌",
+    "Bites": "✅",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Shan Cheng",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Song Fa Bak Kut Teh",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Subway",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Swee Heng Bakery",
+    "Mains": "❌",
+    "Takeaway only": "❌",
+    "Bites": "✅",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Swensen's",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Tonkotsu Kazan",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Twelve Cupcakes",
+    "Mains": "❌",
+    "Takeaway only": "❌",
+    "Bites": "✅",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Wine Connection",
+    "Mains": "❌",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "✅",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "WOK HEY",
+    "Mains": "✅",
+    "Takeaway only": "✅",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Xi Men Jie",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Ya Kun Kaya Toast",
+    "Mains": "❌",
+    "Takeaway only": "✅",
+    "Bites": "✅",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Yakiniku Like",
+    "Mains": "✅",
+    "Takeaway only": "❌",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Yes Lemon",
+    "Mains": "❌",
+    "Takeaway only": "❌",
+    "Bites": "✅",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  },
+  {
+    "name": "Yu Ding",
+    "Mains": "✅",
+    "Takeaway only": "✅",
+    "Bites": "❌",
+    "Drinks": "❌",
+    "cuisine": "❌",
+    "priceRange": "❌"
+  }
+]

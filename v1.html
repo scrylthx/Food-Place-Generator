@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Places Finder</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍽️</text></svg>">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 15px;
+        }
+
+        .header {
+            text-align: center;
+            color: white;
+            margin-bottom: 25px;
+            padding: 10px 0;
+        }
+
+        .header h1 {
+            font-size: clamp(1.8rem, 5vw, 2.5rem);
+            margin-bottom: 8px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: clamp(0.9rem, 3vw, 1.1rem);
+            opacity: 0.9;
+        }
+
+        .main-options {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .option-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 25px 20px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            backdrop-filter: blur(10px);
+            min-height: 160px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .option-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+
+        .option-card:active {
+            transform: translateY(-2px);
+        }
+
+        .option-card h3 {
+            font-size: clamp(1.2rem, 4vw, 1.5rem);
+            margin-bottom: 12px;
+            color: #4a5568;
+        }
+
+        .option-card p {
+            color: #718096;
+            margin-bottom: 18px;
+            font-size: clamp(0.85rem, 3vw, 1rem);
+        }
+
+        .btn {
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: clamp(0.9rem, 3vw, 1rem);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+            min-height: 48px; /* Better touch target */
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .search-section {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            padding: 25px 20px;
+            margin-bottom: 25px;
+            backdrop-filter: blur(10px);
+            display: none;
+        }
+
+        .search-section.active {
+            display: block;
+            animation: slideIn 0.5s ease;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .input-group {
+            margin-bottom: 20px;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #4a5568;
+            font-size: clamp(0.9rem, 3vw, 1rem);
+        }
+
+        .input-group input, .input-group select {
+            width: 100%;
+            padding: 15px 12px;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            font-size: clamp(0.95rem, 4vw, 1rem);
+            transition: border-color 0.3s ease;
+            min-height: 48px; /* Better touch target */
+        }
+
+        .input-group input:focus, .input-group select:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .results-section {
+            display: none;
+        }
+
+        .results-section.active {
+            display: block;
+        }
+
+        .food-place-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            max-width: 100%;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .food-place-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .place-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            gap: 10px;
+        }
+
+        .place-name {
+            font-size: clamp(1.1rem, 4vw, 1.3rem);
+            text-align:left;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 5px;
+            line-height: 1.3;
+        }
+
+        .place-type {
+            color: #667eea;
+            text-align:left;
+            font-weight: 500;
+            text-transform: uppercase;
+            font-size: clamp(0.75rem, 3vw, 0.8rem);
+        }
+
+        .place-details {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .detail-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: clamp(0.85rem, 3vw, 0.95rem);
+        }
+
+        .rating {
+            color: #f6ad55;
+        }
+
+        .price {
+            color: #48bb78;
+            font-weight: 600;
+        }
+
+        .distance {
+            color: #667eea;
+        }
+
+        .directions-btn {
+            background: linear-gradient(45deg, #48bb78, #38a169);
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: clamp(0.8rem, 3vw, 0.9rem);
+            transition: all 0.3s ease;
+            min-height: 40px;
+            white-space: nowrap;
+        }
+
+        .directions-btn:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(72, 187, 120, 0.3);
+        }
+
+        .back-btn {
+            background: linear-gradient(45deg, #718096, #4a5568);
+            margin-bottom: 20px;
+            width: 100%;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #667eea;
+        }
+
+        .loading-spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error {
+            background: #fed7d7;
+            color: #c53030;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 20px 0;
+            font-size: clamp(0.9rem, 3vw, 1rem);
+        }
+
+        .location-status {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            text-align: center;
+            font-size: clamp(0.9rem, 3vw, 1rem);
+        }
+
+        .checkbox-container {
+            text-align: center;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .checkbox-label {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 12px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            min-height: 48px;
+            font-size: clamp(0.85rem, 3vw, 1rem);
+            font-weight: 600;
+            color: #4a5568;
+            user-select: none;
+            max-width: 100%;
+        }
+
+        .checkbox-label:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+
+        .checkbox-label input {
+            transform: scale(1.2);
+            margin: 0;
+        }
+
+        .filter-group {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .filter-group .checkbox-label {
+            flex: 1;
+            min-width: 140px;
+            max-width: 200px;
+            justify-content: center;
+        }
+
+        /* Mobile-specific improvements */
+        @media (max-width: 768px) {
+            body {
+                font-size: 16px; /* Prevent zoom on input focus */
+            }
+            
+            .container {
+                padding: 10px;
+            }
+            
+            .header {
+                margin-bottom: 20px;
+            }
+            
+            .main-options {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+            
+            .option-card {
+                padding: 20px 15px;
+                min-height: 140px;
+            }
+            
+            .search-section {
+                padding: 20px 15px;
+            }
+            
+            .place-header {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 15px;
+            }
+            
+            .directions-btn {
+                width: 100%;
+                padding: 12px 16px;
+                min-height: 48px;
+            }
+            
+            .place-details {
+                grid-template-columns: 1fr;
+                gap: 8px;
+            }
+            
+            .filter-group {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .filter-group .checkbox-label {
+                width: 100%;
+                max-width: 300px;
+            }
+            
+            .checkbox-container .checkbox-label {
+                width: 100%;
+                max-width: 300px;
+            }
+        }
+
+        /* Very small screens */
+        @media (max-width: 480px) {
+            .container {
+                padding: 8px;
+            }
+            
+            .option-card {
+                padding: 18px 12px;
+            }
+            
+            .search-section {
+                padding: 18px 12px;
+            }
+            
+            .food-place-card {
+                padding: 15px;
+            }
+        }
+
+        /* Touch improvements */
+        @media (hover: none) and (pointer: coarse) {
+            .option-card:hover,
+            .btn:hover,
+            .directions-btn:hover,
+            .checkbox-label:hover {
+                transform: none;
+            }
+            
+            .option-card:active {
+                transform: scale(0.98);
+            }
+            
+            .btn:active,
+            .directions-btn:active {
+                transform: scale(0.95);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🍽️ TR Food Place Generator</h1>
+            <p>When you eat out too often and cannot decide what to eat :/ </p>
+
+        <div id="mainOptions" class="main-options">
+            <div class="option-card" onclick="randomPick()">
+                <h3>🎲 Surprise Me!</h3>
+                <p>Feeling adventurous? Get a random food recommendation</p>
+                <button class="btn">Random Pick</button>
+            </div>
+        </div>
+        
+        <div id="filters">
+            <div class="filter-group">
+                <label class="checkbox-label">
+                    <input type="radio" name="filterGroup" id="mainsCheckbox">
+                    <span>Mains🍔🍚🍜</span>
+                </label>
+                <label class="checkbox-label">
+                    <input type="radio" name="filterGroup" id="bitesCheckbox">
+                    <span>Snacks/Bites🍩🍦</span>
+                </label>
+                <label class="checkbox-label">
+                    <input type="radio" name="filterGroup" id="drinksCheckbox">
+                    <span>Drinks🧋☕</span>
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" id="raffCheckbox">
+                    <span>Is Raff here? 🍳</span>
+                </label>
+            </div>
+        </div>
+
+        <div id="cravingSection" class="search-section">
+            <button class="btn back-btn" onclick="showMainOptions()">← Back to Options</button>
+            <h2>What are you craving?</h2>
+            <div class="input-group">
+                <label for="cravingInput">Food type or cuisine:</label>
+                <input type="text" id="cravingInput" placeholder="e.g., chicken rice, laksa, western food, dim sum...">
+            </div>
+            <button class="btn" onclick="searchByCraving()">Find Places</button>
+        </div>
+
+        <div id="budgetSection" class="search-section">
+            <button class="btn back-btn" onclick="showMainOptions()">← Back to Options</button>
+            <h2>What's your budget?</h2>
+            <div class="input-group">
+                <label for="budgetInput">Maximum price per person (SGD):</label>
+                <select id="budgetInput">
+                    <option value="5">Under $5</option>
+                    <option value="10">Under $10</option>
+                    <option value="15">Under $15</option>
+                    <option value="25">Under $25</option>
+                    <option value="50">Under $50</option>
+                    <option value="100">$50+</option>
+                </select>
+            </div>
+            <button class="btn" onclick="searchByBudget()">Find Places</button>
+        </div>
+
+        <div id="resultsSection" class="results-section">
+            <button class="btn back-btn" onclick="showMainOptions()">← Close</button>
+            <div id="resultsContent"></div>
+        </div>
+    </div>
+
+    <script>
+        let userLocation = null;
+        
+        async function getData(){
+            const allfood = await fetch("/jsoons/allfood.json");
+            const fooddata = await allfood.json();
+            return fooddata;
+        };
+
+        function showMainOptions() {
+            document.getElementById('mainOptions').style.display = 'none';
+            document.getElementById('mainOptions').style.display = 'grid';
+            document.getElementById('cravingSection').classList.remove('active');
+            document.getElementById('budgetSection').classList.remove('active');
+            document.getElementById('resultsSection').classList.remove('active');
+        }
+
+        function showCravingSearch() {
+            document.getElementById('mainOptions').style.display = 'none';
+            document.getElementById('cravingSection').classList.add('active');
+        }
+
+        function showBudgetSearch() {
+            document.getElementById('mainOptions').style.display = 'none';
+            document.getElementById('budgetSection').classList.add('active');
+        }
+
+        function searchByCraving() {
+            const craving = document.getElementById('cravingInput').value.toLowerCase().trim();
+            if (!craving) {
+                alert('Please enter what you are craving!');
+                return;
+            }
+
+            // Filter places based on craving
+            const filteredPlaces = sampleFoodPlaces.filter(place => {
+                return place.cuisine.some(c => c.toLowerCase().includes(craving)) ||
+                       place.specialties.some(s => s.toLowerCase().includes(craving)) ||
+                       place.name.toLowerCase().includes(craving);
+            });
+
+            showResults(filteredPlaces, `Results for "${craving}"`);
+        }
+
+         function searchByBudget() {
+            const maxBudget = parseInt(document.getElementById('budgetInput').value);
+            
+            // Filter places based on budget
+            const filteredPlaces = sampleFoodPlaces.filter(place => {
+                const priceRange = place.priceRange;
+                const maxPrice = parseInt(priceRange.split('-')[1] || priceRange.split('$')[1]);
+                return maxPrice <= maxBudget;
+            });
+
+            showResults(filteredPlaces, `Places under $${maxBudget}`);
+        }
+
+        async function randomPick() {
+            const includeMains = document.getElementById('mainsCheckbox').checked;
+            const includeBites = document.getElementById('bitesCheckbox').checked;
+            const includeDrinks = document.getElementById('drinksCheckbox').checked;
+            const sampleFoodPlaces = await getData();
+            let selected = false;
+            let selectedPlace = null;
+            let randomPlace = null;
+            do {
+                randomPlace = sampleFoodPlaces[Math.floor(Math.random() * sampleFoodPlaces.length)];
+                if(randomPlace.Mains==includeMains && randomPlace.Bites==includeBites && randomPlace.Drinks==includeDrinks) {
+                    selected = true;
+                }
+            } while (selected == false); 
+            console.log(randomPlace); 
+            showResults([randomPlace], "Your Random Pick! 🎲");
+        }
+
+        function showResults(places, title) {
+            document.getElementById('cravingSection').classList.remove('active');
+            document.getElementById('budgetSection').classList.remove('active');
+            document.getElementById('resultsSection').classList.add('active');
+
+            // Check if Raff is here
+            const isRaffHere = document.getElementById('raffCheckbox').checked;
+
+            let html = `<h2 style="text-align: center; margin-bottom: 20px;">${title}</h2>`;
+            
+            if (places.length === 0) {
+                html += `
+                    <div class="food-place-card">
+                        <p style="text-align: center; color: #718096;">
+                            No places found matching your criteria. Try adjusting your search!
+                        </p>
+                    </div>
+                `;
+            } else if (isRaffHere) {
+                // If Raff is here, show only Cookhouse for all results
+                html += `
+                    <div class="food-place-card">
+                        <div class="place-header">
+                            <div>
+                                <div class="place-name">Cookhouse</div>
+                                <div class="place-type">Home Kitchen</div>
+                            </div>
+                            <button class="directions-btn" onclick="alert('Just stay home! 🏠')">
+                                Get Directions
+                            </button>
+                        </div>
+                        <div class="place-details">
+                            <div class="detail-item">
+                                <span class="rating">⭐ 5.0</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="price">💰 Free</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="distance">📍 0.0km</span>
+                            </div>
+                        </div>
+                        <div style="margin-top: 15px;">
+                            <strong>Specialties:</strong> Whatever Raff is cooking today
+                        </div>
+                        <div style="margin-top: 10px;">
+                            <strong>Cuisine:</strong> Home-cooked love
+                        </div>
+                    </div>
+                `;
+            } else {
+                places.forEach(place => {
+                    html += `
+                        <div class="food-place-card">
+                            <div class="place-header">
+                                <div>
+                                    <div class="place-name">${place.name}</div>
+                                    <div class="place-type">${place.location}</div>
+                                </div>
+                            </div>
+                            <div class="place-details">
+                                <div class="detail-item">
+                                    <span class="rating">Mains🍔🍚🍜: ${place.Mains}</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="price">Snacks/Bites🍩🍦: ${place.Bites}</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="distance">Drinks🧋☕: ${place.Drinks}</span>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
+            }
+
+            document.getElementById('resultsContent').innerHTML = html;
+        }
+
+        function getDirections(lat, lng, placeName) {
+            if (userLocation) {
+                const googleMapsUrl = `https://www.google.com/maps/dir/${userLocation.lat},${userLocation.lng}/${lat},${lng}`;
+                window.open(googleMapsUrl, '_blank');
+            } else {
+                const googleMapsUrl = `https://www.google.com/maps/search/${encodeURIComponent(placeName)}/@${lat},${lng},15z`;
+                window.open(googleMapsUrl, '_blank');
+            }
+        }
+
+        // Allow Enter key to trigger search
+        document.getElementById('cravingInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchByCraving();
+            }
+        });
+
+        // Initialize location status
+        document.getElementById('locationStatus').innerHTML = '<p>📍 Ready to find food places near you!</p>';
+        document.getElementById('locationStatus').style.background = 'rgba(72, 187, 120, 0.1)';
+        document.getElementById('locationStatus').style.color = '#2f855a';
+    </script>
+</body>
+</html>
